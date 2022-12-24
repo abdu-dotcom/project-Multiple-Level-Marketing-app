@@ -6,14 +6,6 @@ const Member = mongoose.Schema({
         type: String,
         required: true
     },
-    alamat: {
-        type: String,
-        required: true
-    },
-    gender: {
-        type: String,
-        required: true
-    },
     children: {
         type: Array,
         required: false
